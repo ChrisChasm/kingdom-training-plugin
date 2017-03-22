@@ -47,7 +47,7 @@ final class Kingdom_Training_Admin {
 	 *
 	 * @since 1.0.0
 	 * @static
-	 * @return Main Kingdom_Training_Admin instance
+	 * @return Kingdom_Training_Admin instance
 	 */
 	public static function instance () {
 		if ( is_null( self::$_instance ) )

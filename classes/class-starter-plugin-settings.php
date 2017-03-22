@@ -34,7 +34,7 @@ final class Kingdom_Training_Settings {
 	 *
 	 * @since 1.0.0
 	 * @static
-	 * @return Main Kingdom_Training_Settings instance
+	 * @return Kingdom_Training_Settings instance
 	 */
 	public static function instance () {
 		if ( is_null( self::$_instance ) )
